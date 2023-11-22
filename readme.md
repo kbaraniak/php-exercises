@@ -1,5 +1,5 @@
 # PHP Exercises
-From school for exam mature and future work
+From school for *mature exam* and future work
 
 ![php logo](https://www.php.net/images/logos/php-med-trans.png)
 
