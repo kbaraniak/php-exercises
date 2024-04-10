@@ -1,0 +1,4 @@
+1. SELECT imie, nazwisko, punkty FROM `klienci` ORDER BY punkty DESC LIMIT 3
+2.
+3. SELECT zdjecie, imie, opinia FROM `klienci` INNER JOIN `opinie` ON klienci.id = opinie.klienci_id WHERE klienci.Typy_id = 2 OR klienci.Typy_id = 3;
+4.

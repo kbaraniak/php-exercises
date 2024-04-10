@@ -1,0 +1,77 @@
+*{
+    font-family: Tahoma, sans-serif;
+}
+
+header{
+    background-color: tomato;
+}
+
+header h1{
+    margin: 0;
+    padding: 2px;
+}
+
+main {
+    background-color: seashell;
+    height: 500px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+footer div{
+    background-color: Tomato;
+    color: white;
+    height: 160px;
+}
+
+.blok{
+    display: flex;
+    background-color: white;
+    color: dimgray;
+    width: 60%;
+    height: 220px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 5px 10px 10px dimgray;
+    margin-bottom: 40px;
+}
+
+.blok2{
+    width: 100%;
+}
+
+.obraz{
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cytat{
+    padding: 10px;
+    font-size: 150%;
+    font-style: italic;
+}
+
+
+h1, h2{
+    text-align: center;
+}
+
+h4{
+    text-align: right;
+    margin-right: 40px;
+    font-size: 150%;
+    font-style: italic;
+}
+
+a{
+    color: white;
+}
